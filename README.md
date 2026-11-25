@@ -1,82 +1,105 @@
+
+
 # CrimIDE
 
-**A multi-language coding IDE that runs in your browser.**
+**A browser-based IDE for 37 programming languages**
 
-CrimIDE is a browser-based development environment supporting 28 programming languages, with project management, code editing, and built-in execution tools.
+CrimIDE is a multi-language code editor that lets you write and run code directly in your browser. It includes a built-in Crim+ interpreter, support for a wide range of programming languages, project management, and a canvas-based output stage.
 
-## ✨ Features
+🌐 **Website:** https://crimsoncyan-code.github.io/CrimIDE/
 
-- **28 programming languages** in one IDE
-- Code editor with adjustable font size and tab width
-- Syntax-aware language selection
-- Run and Stop controls
-- Output panel with Stage and Console views
-- Project Explorer for managing files
-- Multiple files within a project
-- Import and export files
-- Export and open complete projects
-- Local saving
-- Dark and other available themes
-- Image and audio asset support
+## Features
 
-## 💻 Supported Languages
+- **37 programming languages** supported
+- **Monaco Editor** for code editing
+- Syntax highlighting and code formatting
+- Run and stop code directly from the IDE
+- Built-in Crim+ interpreter
+- Multi-file projects with tabs
+- Project explorer
+- Import and export individual files
+- Import and export complete projects
+- Console with interactive input
+- Canvas output stage
+- Image and audio asset uploads
+- Resizable editor and output panels
+- Dark and light themes
+- Adjustable font size, tab size, and word wrapping
+- Find and replace
 
-CrimIDE currently supports:
+## Supported Languages
+
+CrimIDE currently supports 37 languages:
 
 | Language | Language | Language |
 |---|---|---|
 | Assembly (NASM) | Bash | Brainfuck |
 | C | C# | C++ |
-| Crim+ | Go | Haskell |
-| HolyC | Java | JavaScript |
-| Koi | Kotlin | LOLCODE |
-| Lua | Objective-C | OCaml |
-| Perl | PHP | PowerShell |
-| Python | R | Ruby |
-| Rust | Swift | TypeScript |
-| Zig | | |
+| C% | Crim+ | Go |
+| Haskell | HolyC | Java |
+| JavaScript | Koi | Kotlin |
+| LOLCODE | Lua | Objective-C |
+| OCaml | Perl | PHP |
+| PowerShell | Python | R |
+| Ruby | Rust | Swift |
+| TypeScript | Zig | Nim |
+| Dart | Prolog | Fortran |
+| Elixir | Crystal | Racket |
+| F# | | |
 
-**Total: 28 languages**
+## Running Code
 
-## 🚀 Getting Started
+1. Open [CrimIDE](https://crimsoncyan-code.github.io/CrimIDE/).
+2. Select a programming language from the language picker.
+3. Write your code in the editor.
+4. Press **Run** to execute it.
+5. View the results in the Stage or Console.
 
-1. Download or clone the CrimIDE repository.
-2. Open the CrimIDE HTML file in your web browser.
-3. Select a programming language from the language dropdown.
-4. Write your code in the editor.
-5. Press **Run** to execute your program.
+Some languages use browser-based runtimes, while others use external execution services. An internet connection is required for languages that rely on remote execution.
 
-## 📁 Projects
+## Projects
 
-CrimIDE includes project management tools that let you:
+CrimIDE supports multi-file projects.
 
-- Create and manage project files
+You can:
+- Create new files
 - Import existing files
 - Rename and delete files
-- Export individual files
+- Switch between files using tabs
+- Export individual `.crim` files
 - Export complete projects
 - Open previously exported projects
 
-## 🖼️ Images & Audio
+Project files use the `.crimproj` format.
 
-CrimIDE includes an asset panel for uploading images and audio files to use in your projects.
+## Crim+
 
-Click an uploaded asset to copy its filename.
+CrimIDE includes a built-in interpreter for **Crim+**, a programming language developed by CrimsonCyan.
 
-## 🎨 Customization
+Crim+ programs can be written and executed directly inside CrimIDE without needing an external interpreter.
 
-CrimIDE includes theme options and editor settings, allowing you to customize your coding environment.
+Example:
 
-## 🛠️ Built With
+```crim
+say "Hello, world!"
+```
 
-CrimIDE is built using web technologies and is designed to run directly in a browser.
+## Output Stage
 
-## 📜 Credits
+CrimIDE includes a canvas-based Stage for programs that produce visual output. Programs can also use the Console for text output and interactive input.
 
-CrimIDE uses language runtimes, compilers, and other tools to provide its multi-language functionality. Please refer to their respective licenses and documentation.
+The Images & Audio panel lets you upload assets to use in your projects.
 
----
+## Themes
 
-**Made by CrimsonCyan.**
+CrimIDE includes two interface themes:
 
-*Code in 28 languages. All in one place.*
+- Dark
+- Light
+
+You can also customize editor font size, tab size, and word wrapping.
+
+## Credits
+
+**Created by CrimsonCyan.**
+
